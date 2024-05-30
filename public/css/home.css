@@ -14,7 +14,6 @@ body {
 .header {
   background-color: #9f3647;
   color: #ffffff;
-  height: 10vh;
   position: sticky;
   top: 0;
   z-index: 10;

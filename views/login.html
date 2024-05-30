@@ -32,15 +32,14 @@
     </header>
     <main id="main" class="main">
         <section>
-            <form action id="iniciarSesion" method="">
+            <form action="" id="iniciarSesion" method="get">
                 <div class="form-login-container">
                     <h1 class="tituloLogin"> Iniciar Sesión</h1>
                     <div class="form-control">
-                        <input type="email" placeholder="Email" required name="email" id="email">
+                        <input type="email" placeholder="Email" name="email" id="email">
                         <div class="error-text"></div>
                     </div>
-                    <div class="error" id="error-email"></div>
-                    <div class="form-control">
+                    <div>
                         <input type="password" placeholder="Contraseña" name="password" id="password">
                         <div class="error-text"></div>
                     </div>
@@ -68,6 +67,7 @@
             <img src="./public/css/images/img/flecha-hacia-arriba.png" alt="ir arriba flecha">
         </a>
     </footer>
+    <script src="../public/js/validar-login.js"></script>
 </body>
 
 </html>
