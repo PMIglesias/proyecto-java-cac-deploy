@@ -181,6 +181,7 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
+  opacity: 0;
 }
 
 .main .peliculasTendencia .tituloSection {
@@ -198,7 +199,6 @@ body {
 
 .main .peliculasTendencia .peliculas a {
   text-decoration: none;
-  color: #ffffff;
 }
 
 .main .peliculasTendencia .peliculas .pelicula {
@@ -231,9 +231,24 @@ body {
 .main .peliculasTendencia .peliculas .pelicula:hover {
   box-shadow: 0 0 30px #9f3648cd;
   transform: scale(1.1);
+  color: #ffffff;
+}
+
+.main h4:hover {
+  font-size: 1.6rem;
+  font-weight: bold;
+  opacity: 0;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+  transition: opacity 0.5s ease-in-out;
+}
+.main .peliculasTendencia h4 {
+  opacity: 0;
 }
 
 .main .peliculasTendencia .peliculas .pelicula:hover .tituloPelicula h4 {
+  width: 100%;
+  padding: 0.5rem;
   opacity: 1;
 }
 
